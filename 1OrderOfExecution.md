@@ -1,8 +1,9 @@
 # Order of Execution in Angular
 
-- It starts from `src/main.ts`. Remember the `src/index.html` file is the one file which going to be shown to the end user and angular will dynamically update the DOM
+- It starts from `src/main.ts`. Remember the `src/index.html` file is the one file which going to be shown to the end user and angular will dynamically update the DOM in realtime
 
 ```html
+<!--src/index.html-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,7 +21,7 @@
 ```
 
 ```TypeScript
-//main.ts
+//src/main.ts
 
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
