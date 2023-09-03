@@ -22,4 +22,4 @@
    - For learning purpose, we can use `ng new my-first-project --no-strict` in the _command prompt_.
    - Navigate into to the newly created project and run `ng serve`. the project will compile and run.
      > Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/
-   - ![landing page](./images/1.png)
+   - ![landing page](./images/1.PNG)
