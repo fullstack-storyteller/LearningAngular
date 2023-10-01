@@ -40,3 +40,15 @@ import {ServerComponent} from './server/server.component';//new custom component
 })
 export class AppModule { }
 ```
+
+## Commands
+
+- Create a component:
+  - `ng generate component component-name` or
+  - `ng g c component-name`
+
+## Note
+
+- Within the @Component decorator it is optional to have styles components but the selector and the template is required.
+- `templateUrl` can be specified to point to a specific .html file or you can also use the `template` to write the html code inline.
+- `styleUrls` is the array of style sheets locations but you can also use `styles` array where you can put multiple styles inline .
